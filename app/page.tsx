@@ -24,18 +24,6 @@ const ExampleJsx = () => {
   return (
     <article className="prose-m-none">
 
-      {/* Vercel Clone Starter */}
-      <a
-        className="h-16 block"
-        href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnicolaszc%2Fnext-tc&env=WORDPRESS_URL,WORDPRESS_HOSTNAME"
-      >
-        {/* eslint-disable-next-line */}
-        <img
-          className="not-prose my-4"
-          src="https://vercel.com/button"
-          alt="Deploy with Vercel"
-        />
-      </a>
     
       <div className="grid md:grid-cols-3 gap-4 mt-6 not-prose">
         <Link
