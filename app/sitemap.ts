@@ -3,7 +3,7 @@ import { getAllPosts } from "@/lib/wordpress";
 import { siteConfig } from "@/site.config";
 
   export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
- /* const posts = await getAllPosts();
+  const posts = await getAllPosts();
 
   const staticUrls: MetadataRoute.Sitemap = [
     {
@@ -51,6 +51,6 @@ import { siteConfig } from "@/site.config";
     priority: 0.5,
   }));
 
-  return [...staticUrls, ...postUrls];  */
-  return[]
+  return [...staticUrls, ...postUrls];  
+  /*return[]*/
 }
