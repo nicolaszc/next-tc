@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   title: "WordPress & Next.js Starter by 9d8",
   description:
     "A starter template for Next.js with WordPress as a headless CMS.",
-  metadataBase: new URL("https://wp.9d8.dev"),
+  metadataBase: new URL("https://topclass.club"),
 };
 
 // Revalidate content every hour
@@ -44,7 +44,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head />
       <body
-        className={cn("min-h-screen font-sans antialiased", fontSans.variable)}
+        className={cn("min-h-screen font-sans antialiased bg-club", fontSans.variable)}
       >
         <ThemeProvider
           attribute="class"
